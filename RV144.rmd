@@ -63,7 +63,6 @@ rowPerc(results)
 
 
 
-
 ## Inferential results
 
 <!--Display inferential evidence as to the effectiveness of the vaccine with explanations and interpretations!-->
@@ -75,6 +74,11 @@ $H_a:$ There is a relation between Aides and having the Aides vaccine
 ```{r}
 chisqtestGC(results, graph = TRUE)
 ```
+   
+ We now test the independence of aids vaccine annd placeabo groups
+ 
+ $H_0:$ The placeabo and aids vaccines treatment is independant of contracting the disease Aids  
+ $H_a:$ Having the vaccine is related to contracting the disease
   
   The p-value of .04 means the probability of getting a result like that just obtained if the null hypothesis is true is approximately 4 percent. This is normally considered significant.
 
